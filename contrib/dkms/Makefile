@@ -6,7 +6,7 @@ else
 KRELEASE := $(KERNELRELEASE)
 endif
 
-KDIR := /usr/lib/modules/$(KRELEASE)/build
+KDIR := /lib/modules/$(KRELEASE)/build
 PWD := $(shell pwd)
 
 
